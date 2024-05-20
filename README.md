@@ -4,31 +4,32 @@ This guide will help setup the dataproc cluster and apache spark used for this p
 
 1. Log in to the google cloud console and select dataproc from the side panel or use the search bar 
 
-![image](img/1.png)
 
-2. The dataproc interface will look like this proceed with **CREATE CLUSTER**
+<img src="img/1.png" width="100%" />
 
-![image](img/2.png)
+1. The dataproc interface will look like this proceed with **CREATE CLUSTER**
+
+<img src="img/2.png" width="100%" />
 
 3. Select Cluster on Compute engine this will use the google compute engine to create the virtual machines used for master and worker nodes
 
-![image](img/3.png)
+<img src="img/3.png" width="40%" />
 
 4. In the following steps select the settings for the cluster.
 
 select a name for the cluster and select the cluster type we use 'Standard'
 
-![image](img/4.png)
+<img src="img/4.png" width="60%" />
 
 Choose the subnetwork as default
 
-![image](img/5.png)
+<img src="img/5.png" width="60%" />
 
 Check the Component gateway and select Jupyter Notebook
 
-![image](img/6.png)
+<img src="img/6.png" width="60%" />
 
-![image](img/8.png)
+<img src="img/8.png" width="30%" />
 
 In the Configure node select the node configurations 
 
@@ -36,38 +37,40 @@ we will use E2 instances
 
 1 Master node and 2 Worker nodes
 
-![image](img/7.png)
-![image](img/9.png)
-![image](img/10.png)
+<img src="img/7.png" width="50%" />
+
+<img src="img/9.png" width="50%" />
+
+<img src="img/10.png" width="50%" />
 
 Uncheck the internal IP only option
 
-![image](img/11.png)
+<img src="img/11.png" width="60%" />
 
 Rest settings keep it as default
 
-![image](img/12.png)
+<img src="img/12.png" width="60%" />
 
 5. Create the cluster using **CREATE**
 
-![image](img/13.png)
+<img src="img/13.png" width="30%" />
 
 The dataproc will start provisioning the resources and will install all the required softwares.
 
-![image](img/14.png)
+<img src="img/14.png" width="100%" />
 
 6. Once the Cluster is up and running go to **WEB INTERFACES**
    select jupyterlab to open the jupyter interface 
 
-![image](img/15.png)
+<img src="img/15.png" width="100%" />
 
 7. The jupyterLab interface will look like this, In launcher select the console option
 
-![image](img/16.png)
+<img src="img/16.png" width="100%" />
 
 This will open a terminal window with root user
 
-![image](img/17.png)
+<img src="img/17.png" width="100%" />
 
 8. We will execute the following commands to setup the files from the git repository 
 
@@ -79,17 +82,17 @@ This will open a terminal window with root user
 
 ``` cd dia-2024-project/ ```
 
-![image](img/18.png)
+<img src="img/18.png" width="100%" />
 
 9. This will download the required files , In the file explorer navigate to the folder ```home/dataproc/dia-2024-project/```
 
 10. Open the notebook ``` x23185813.ipynb ```
 
-![image](img/20.png)
+<img src="img/20.png" width="100%" />
 
 11. Run All cells 
 
-![image](img/21.png)
+<img src="img/21.png" width="100%" />
 
 
 
